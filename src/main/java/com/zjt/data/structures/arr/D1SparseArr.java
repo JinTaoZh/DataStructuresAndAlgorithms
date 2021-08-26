@@ -14,7 +14,7 @@ import java.util.Arrays;
  * @author zjt
  * @date 2021-07-09
  */
-public class SparseArr {
+public class D1SparseArr {
 
     // 一个稀疏数组的应用案例
     public static void main(String[] args) throws Exception {
@@ -31,9 +31,9 @@ public class SparseArr {
             System.out.println();
         }
 
-        SparseArr sparseArr = new SparseArr();
-        int[][] sparseArray = sparseArr.toSparseArray(arr);
-        sparseArr.toOrdinaryArr(sparseArray);
+        D1SparseArr d1SparseArr = new D1SparseArr();
+        int[][] sparseArray = d1SparseArr.toSparseArray(arr);
+        d1SparseArr.toOrdinaryArr(sparseArray);
     }
 
     // 将二维数组转换成为稀疏数组 并保存

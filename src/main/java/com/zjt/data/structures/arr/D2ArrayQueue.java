@@ -91,7 +91,8 @@ class TestArrayQueue {
 
     public static void main(String[] args) {
         // 创建一个队列
-        D2ArrayQueue queue = new D2ArrayQueue(5);
+//        D2ArrayQueue queue = new D2ArrayQueue(5);
+        RingArrayQueue<Integer> queue = new RingArrayQueue<>(5);
         char key = ' ';//用于接收用户输入
         Scanner scanner = new Scanner(System.in);
         boolean flag = true;
